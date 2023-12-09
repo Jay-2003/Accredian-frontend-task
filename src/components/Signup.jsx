@@ -33,7 +33,7 @@ const Signup = () => {
         // e.preventDefault();
 
         try {
-            const response = await fetch('https://backend-auth-tar6.vercel.app/api/signup', {
+            const response = await fetch('https://backend-auth-psi.vercel.app/api/signup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
